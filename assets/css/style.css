@@ -1,0 +1,53 @@
+#mainheader {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: blue;
+    background-color: yellow;
+    width: 308px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#subtitle {
+    display: block;
+    font-size: large;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: brown;
+    width: 308px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 0;
+}
+
+#elephant {
+    height: 200px;
+    width: 400px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main {
+    background-color: burlywood;
+}
+
+.container {
+    text-align: center;
+}

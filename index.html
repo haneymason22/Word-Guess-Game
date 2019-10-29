@@ -5,24 +5,52 @@
     <title>Word Guess Game</title>
     <link rel = "stylesheet" href = "assets/css/reset.css">
     <link rel = "stylesheet" href = "assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
-  <body>
-    <header>
-        <h1>HANGMAN</h1>
-    </header>
+  <body class="main">
 
-    <p>PRESS ANY KEY TO GET STARTED</p>
-
-    <div>
-        <p>WINS</p>
-        <p id="wins-text"></p>
-        <p>CURRENT WORD</p>
-        <p id = "currentword-text"></p>
-        <p># OF GUESSES REMAINING</p>
-        <p id="guessesleft-text"></p>
-        <p>LETTERS GUESSED SO FAR</p>
-        <p id="guessedletters-text"></p>
-    </div>
+        <div class="container">
+                <div class="row">
+                  <div class="col-lg-4" style="text-align: center">
+                        <header>
+                            
+                        </header>
+                  </div>
+                  <div class="col-lg-8" style="text-align: center">
+                        <header>
+                            <h1 id= "mainheader" >HANGMAN</h1>
+                        </header>
+                  </div>
+                </div>
+                <div class="row">
+                        <div class="col-lg-4">
+                    
+                        </div>
+                        <div class="col-lg-8">
+                                <header>
+                                    <h1 id = "subtitle" style="text-align: center">Safari Edition</h1>
+                                </header>
+                          </div>
+                </div>
+                <div class = "row">
+                    <div class= "col-md-6">
+                        <img src = "assets/images/elephant.jpg" alt= "elephant" id= "elephant">
+                    </div>
+                    <div class= "col-md-6">
+                     <p>PRESS ANY KEY TO GET STARTED!</p>
+                     <p>WINS:</p>
+                     <p id="wins-text">0</p>  
+                     <p>CURRENT WORD:</p> 
+                     <p id="currentword-text">_ _ _ _ _ _</p> 
+                     <p># OF GUESSES REMAINING:</p> 
+                     <p id="guessesleft-text">12</p>
+                     <p>LETTERS GUESSED SO FAR:</p>
+                     <p id="guessedletters-text"></p>
+                    </div>
+                </div>
+                
+              </div>
+    
     
 
   </body>
