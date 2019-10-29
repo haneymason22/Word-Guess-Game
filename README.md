@@ -1,1 +1,1 @@
-# Word-Guess-Game
+# This is a styled hangman guessing game.
